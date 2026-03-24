@@ -56,6 +56,7 @@ class UiCommand extends Command
             // Password views
             "$stubsPath/auth/passwords/email.blade.php"   => "$viewsPath/auth/passwords/email.blade.php",
             "$stubsPath/auth/passwords/reset.blade.php"   => "$viewsPath/auth/passwords/reset.blade.php",
+            "$stubsPath/auth/passwords/confirm.blade.php"   => "$viewsPath/auth/passwords/confirm.blade.php",
         ];
 
         foreach ($map as $from => $to) {

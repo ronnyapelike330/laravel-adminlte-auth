@@ -1,0 +1,30 @@
+{
+    "name": "chamikasamaraweera/laravel-adminlte-auth",
+    "description": "AdminLTE Bootstrap 5 Auth UI for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chamika Samaraaweera",
+            "email": "chamika@teaminfinity.lk"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0|^12.0|^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "chamikasamaraweera\\AdminLteAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "chamikasamaraweera\\AdminLteAuth\\AdminLteAuthServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

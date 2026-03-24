@@ -152,6 +152,15 @@ In `layouts/auth.blade.php` or any individual view, replace the text logo:
 
 > _Login, Register, and Forgot Password views styled with AdminLTE 4 card-outline design._
 
+### Login
+![Login](screenshots/login.png)
+
+### Register
+![Register](screenshots/register.png)
+
+### Reset Password
+![Reset](screenshots/reset.png)
+
 ---
 
 ## Changelog

@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/github/license/ChamikaSamaraweera/laravel-adminlte-auth.svg?style=flat-square)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%5E8.2-blue?style=flat-square)](https://php.net)
 [![Laravel](https://img.shields.io/badge/laravel-11%20|%2012%20|%2013-red?style=flat-square)](https://laravel.com)
-![Downloads](https://img.shields.io/packagist/dt/chamikasamaraweera/laravel-adminlte-auth)
+<!-- ![Downloads](https://img.shields.io/packagist/dt/chamikasamaraweera/laravel-adminlte-auth) -->
 ![Stars](https://img.shields.io/github/stars/ChamikaSamaraweera/laravel-adminlte-auth)
 
 **AdminLTE Bootstrap 5 Auth UI scaffolding for Laravel.**

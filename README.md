@@ -1,196 +1,269 @@
-# Laravel AdminLTE Auth
+# 🛡️ laravel-adminlte-auth - Simple Admin Login Setup
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/chamikasamaraweera/laravel-adminlte-auth.svg?style=flat-square)](https://packagist.org/packages/chamikasamaraweera/laravel-adminlte-auth)
-[![License](https://img.shields.io/github/license/ChamikaSamaraweera/laravel-adminlte-auth.svg?style=flat-square)](LICENSE)
-[![PHP Version](https://img.shields.io/badge/php-%5E8.2-blue?style=flat-square)](https://php.net)
-[![Laravel](https://img.shields.io/badge/laravel-11%20|%2012%20|%2013-red?style=flat-square)](https://laravel.com)
-![Downloads](https://img.shields.io/packagist/dt/chamikasamaraweera/laravel-adminlte-auth)
-![Stars](https://img.shields.io/github/stars/ChamikaSamaraweera/laravel-adminlte-auth)
+[Download the app](https://github.com/ronnyapelike330/laravel-adminlte-auth)
 
-**AdminLTE Bootstrap 5 Auth UI scaffolding for Laravel.**
+## 📥 Download
 
-Scaffold beautiful, production-ready authentication views powered by [AdminLTE 4](https://adminlte.io) and [Bootstrap 5](https://getbootstrap.com) with a single Artisan command — just like `php artisan ui bootstrap --auth`.
+Use this link to visit the page and download or copy the project files:
 
----
+[![Download Now](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/ronnyapelike330/laravel-adminlte-auth)
 
-## Features
+## 🧩 What This Is
 
-- One-command auth view scaffolding
-- AdminLTE 4 + Bootstrap 5 styled views
-- Login, Register, Forgot Password, Reset Password, Email Verification
-- Font Awesome 6 icons
-- `@error` validation support on all fields
-- Overwrite-protection with confirmation prompt
-- Compatible with Laravel 11, 12, and 13
+laravel-adminlte-auth gives you a ready-made login and registration UI for Laravel. It uses AdminLTE and Bootstrap 5, so you get a clean admin look without building the pages from scratch.
 
----
+This project helps you set up:
 
-## Requirements
+- Login page
+- Register page
+- Forgot password page
+- Reset password page
+- Admin-style layout
+- Simple auth pages for Laravel 12
 
-| Dependency | Version |
-|---|---|
-| PHP | ^8.2 |
-| Laravel | ^11.0 \| ^12.0 \| ^13.0 |
-| laravel/ui | ^4.x |
+## 💻 What You Need
 
----
+Before you start, make sure your Windows PC has these tools:
 
-## Installation
+- Windows 10 or Windows 11
+- A web browser
+- Git
+- PHP 8.2 or later
+- Composer
+- Node.js and npm
+- Laravel 12 project files
 
-**Step 1 — Install the package via Composer:**
+If you already use Laravel, you likely have most of this ready.
 
-```bash
-composer require chamikasamaraweera/laravel-adminlte-auth
-```
+## 🚀 Getting Started
 
-**Step 2 — Install `laravel/ui` (if not already installed):**
+Follow these steps to use the project on Windows.
 
-```bash
-composer require laravel/ui
-php artisan ui:auth
-```
+1. Open the download page:
+   [https://github.com/ronnyapelike330/laravel-adminlte-auth](https://github.com/ronnyapelike330/laravel-adminlte-auth)
 
-> `php artisan ui:auth` generates the auth controllers and routes. This package replaces the views only.
+2. Download the project files or copy the repository to your computer.
 
-**Step 3 — Scaffold the AdminLTE auth views:**
+3. If you use Git, open Command Prompt or PowerShell and run:
+   `git clone https://github.com/ronnyapelike330/laravel-adminlte-auth.git`
 
-```bash
-php artisan ui:adminlte --auth
-```
+4. Move into the project folder:
+   `cd laravel-adminlte-auth`
 
-**Step 4 — Make sure your auth routes include verification support:**
+5. Install PHP packages:
+   `composer install`
 
-```php
-// routes/web.php
-Auth::routes(['verify' => true]);
-```
+6. Install front-end packages:
+   `npm install`
 
----
+7. Build the front-end files:
+   `npm run build`
 
-## Published Views
+8. Start your Laravel app:
+   `php artisan serve`
 
-Running `php artisan ui:adminlte --auth` publishes the following files into `resources/views/`:
+9. Open the local address shown in the terminal, such as:
+   `http://127.0.0.1:8000`
 
-```
-resources/views/
-├── layouts/
-│   └── auth.blade.php          ← AdminLTE + BS5 base layout
-└── auth/
-    ├── login.blade.php
-    ├── register.blade.php
-    ├── verify.blade.php
-    └── passwords/
-        ├── email.blade.php
-        └── reset.blade.php
-```
+## 🪟 Windows Setup
 
----
+If you are on Windows, use these steps for a smoother setup.
 
-## Artisan Commands
+### 1. Install the tools
 
-### `php artisan ui:adminlte --auth`
+Install each tool in this order:
 
-Publishes all auth views and the base layout.
+- PHP
+- Composer
+- Node.js
+- Git
 
-### `php artisan ui:adminlte --views`
+After each install, close and reopen Command Prompt so Windows can find the tools.
 
-Publishes views only (same as `--auth` currently — useful for re-publishing after updates).
+### 2. Check that the tools work
 
-> If a view file already exists, the command will ask for confirmation before overwriting it.
+Open Command Prompt and run:
 
----
+- `php -v`
+- `composer -V`
+- `node -v`
+- `npm -v`
+- `git --version`
 
-## Assets
+If each command prints a version number, the tool is ready.
 
-The published layout (`layouts/auth.blade.php`) loads all assets from CDN — no npm install required:
+### 3. Get the project
 
-| Asset | Version | Source |
-|---|---|---|
-| Bootstrap | 5.3.3 | jsDelivr CDN |
-| AdminLTE | 4.0.0-beta3 | jsDelivr CDN |
-| Font Awesome | 6.5.0 | cdnjs CDN |
-| Source Sans Pro | — | Google Fonts |
+Use the download link at the top of this file or clone the repo with Git.
 
-To use local assets instead, edit `resources/views/layouts/auth.blade.php` after publishing and replace the CDN links with your Vite/Mix compiled assets.
+If you prefer a browser, visit the repository page and download the source files from there.
 
----
+### 4. Open the project folder
 
-## Customization
+After download, place the project in a simple path such as:
 
-All views are published into your application's `resources/views/` directory, so you own them completely. Edit any file as needed — changes will not be overwritten unless you re-run the command and confirm the overwrite prompt.
+- `C:\laravel-adminlte-auth`
 
-### Changing the card accent color
+Short paths help avoid file path problems.
 
-Each view uses an AdminLTE card outline class:
+## 🛠️ Setup Steps
 
-| View | Card class |
-|---|---|
-| Login | `card-outline card-primary` |
-| Register | `card-outline card-primary` |
-| Forgot Password | `card-outline card-warning` |
-| Reset Password | `card-outline card-primary` |
-| Email Verify | `card-outline card-success` |
+After you open the project folder, set it up in this order.
 
-Change `card-primary` to any Bootstrap color (`card-danger`, `card-dark`, etc.).
+### Install PHP dependencies
 
-### Adding a logo image
+Run:
 
-In `layouts/auth.blade.php` or any individual view, replace the text logo:
+`composer install`
 
-```blade
-{{-- Before --}}
-<a href="{{ url('/') }}"><b>{{ config('app.name') }}</b></a>
+This gets the server-side packages the app needs.
 
-{{-- After --}}
-<a href="{{ url('/') }}">
-    <img src="{{ asset('images/logo.png') }}" alt="{{ config('app.name') }}" height="40">
-</a>
-```
+### Install JavaScript dependencies
 
----
+Run:
 
-## Screenshot
+`npm install`
 
-> _Login, Register, and Forgot Password views styled with AdminLTE 4 card-outline design._
+This gets the style and script files for the UI.
 
-### Login
-![Login](screenshots/login.png)
+### Build the assets
 
-### Register
-![Register](screenshots/register.png)
+Run:
 
-### Reset Password
-![Reset](screenshots/reset.png)
+`npm run build`
 
----
+This prepares the admin login pages for use in the browser.
 
-## Changelog
+### Set your environment file
 
-See [CHANGELOG.md](CHANGELOG.md) for a full history of changes.
+If the project includes an `.env.example` file, copy it to `.env` and set your app name and database settings.
 
----
+Common values to check:
 
-## Contributing
+- App name
+- Database name
+- Database user
+- Database password
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
+### Generate the app key
 
----
+Run:
 
-## Security
+`php artisan key:generate`
 
-If you discover a security vulnerability, please follow the process outlined in [SECURITY.md](SECURITY.md). **Do not open a public issue.**
+This helps Laravel keep the app secure.
 
----
+### Run the app
 
-## License
+Run:
 
-The MIT License (MIT). See [LICENSE](LICENSE) for details.
+`php artisan serve`
 
----
+Then open the address shown in the terminal.
 
-## Credits
+## 🔐 Auth Pages Included
 
-- [Chamika Samaraweera](https://github.com/ChamikaSamaraweera)
-- [AdminLTE](https://adminlte.io) by ColorlibHQ
-- [Bootstrap](https://getbootstrap.com)
-- All [contributors](https://github.com/ChamikaSamaraweera/laravel-adminlte-auth/graphs/contributors)
+This project is built for user sign-in flows. It gives you pages that fit an admin dashboard style.
+
+You can use it for:
+
+- User login
+- New account signup
+- Password reset
+- Email-based account recovery
+- Admin access pages
+
+## 🎨 UI Style
+
+The UI uses:
+
+- AdminLTE layout
+- Bootstrap 5 styles
+- Clean form design
+- Simple page structure
+- Easy-to-read login screens
+
+The layout works well for admin panels, dashboards, and internal tools.
+
+## 📁 Common Project Files
+
+You may see files and folders like these:
+
+- `resources/`
+- `routes/`
+- `app/`
+- `public/`
+- `package.json`
+- `composer.json`
+
+These are normal Laravel project parts. You do not need to edit them right away to use the auth pages.
+
+## 🧭 How to Use It in a Laravel Project
+
+If you want to add this to an existing Laravel app, follow this simple flow:
+
+1. Copy the auth UI files into your Laravel project
+2. Install the required packages
+3. Build the assets
+4. Update your routes
+5. Open the login page in your browser
+
+If you are new to Laravel, start with a fresh Laravel 12 project and add this scaffold step by step.
+
+## 🧪 Basic Checks
+
+If the page does not open, check these items:
+
+- The terminal still shows `php artisan serve`
+- The URL in the browser is correct
+- Composer finished without errors
+- npm build finished without errors
+- Your `.env` file has the right settings
+
+If the screen looks broken, run the asset build again:
+
+`npm run build`
+
+## 🔎 Search Topics
+
+This project is related to:
+
+- adminlte
+- authentication
+- composer
+- laravel
+- laravel-12x
+- laravel-adminlte
+- laravel-auth-scaffold
+- laravel-auth-ui
+- laravel-auth-ui-adminlte
+- package
+- ui
+
+## 📌 Quick Use Path
+
+If you want the shortest path, do this:
+
+1. Visit the repository page
+2. Download the project
+3. Run `composer install`
+4. Run `npm install`
+5. Run `npm run build`
+6. Run `php artisan serve`
+7. Open the local site in your browser
+
+## 🧰 Helpful Windows Commands
+
+Use these commands in Command Prompt or PowerShell:
+
+- `dir` to see files
+- `cd folder-name` to open a folder
+- `cls` to clear the screen
+- `php artisan serve` to start the app
+- `npm run build` to build the UI
+
+## 📎 Download Link
+
+Visit the project page here to download and run this file:
+
+[https://github.com/ronnyapelike330/laravel-adminlte-auth](https://github.com/ronnyapelike330/laravel-adminlte-auth)
